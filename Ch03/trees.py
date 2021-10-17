@@ -103,3 +103,7 @@ def grabTree(filename):
     fr = open(filename)
     return pickle.load(fr)
     
+
+if __name__ == "__main__":
+    myDat,lables=createDataSet()
+    print(calcShannonEnt(myDat))
