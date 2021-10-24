@@ -13,6 +13,7 @@ def createDataSet():
     #change to discrete values
     return dataSet, labels
 
+#计算给定数据集的香农熵
 def calcShannonEnt(dataSet):
     numEntries = len(dataSet)
     labelCounts = {}
